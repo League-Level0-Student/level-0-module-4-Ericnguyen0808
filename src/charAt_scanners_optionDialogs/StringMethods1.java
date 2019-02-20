@@ -19,7 +19,7 @@ public class StringMethods1 {
 		//    HINT: use .length() to determine how many loops
 
 		
-		// 5. Pick a char inside your String, and use a loop to determine
+		// 5. Pick a char inside your String, and use a loop to detsermine
 		//    what position/index in the String the char is located.
 		//    Print the char's position to the console.
 		//    EXAMPLE: if your string is "abc" and you are searching 
