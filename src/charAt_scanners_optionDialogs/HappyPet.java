@@ -10,7 +10,7 @@ public class HappyPet {
 		// 1. Ask the user what kind of pet they want to buy, and store their answer in a variable
 	String p = JOptionPane.showInputDialog("What pet do you want to buy?");
 		// 7. REPEAT steps 3 - 6 enough times to make your pet happy!
-		
+	
 			// 3. Use showOptionDialog to ask the user what they want to do to make their pet happy
 			//    (eg: cuddle, food, water, take a walk, groom, clean up poop).
 			//    Make sure to customize the title and question too.
