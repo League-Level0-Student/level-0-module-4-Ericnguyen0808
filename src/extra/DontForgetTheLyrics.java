@@ -21,6 +21,7 @@ public class DontForgetTheLyrics {
 	
 	public static void main(String[] args) {
 		// 4. Make a pop-up to explain the game.
+		JOptionPane.showMessageDialog(null, "Here is where you try not to forget the lyrics");
 
 		// 5. Use the playSound method to play your song.
 
