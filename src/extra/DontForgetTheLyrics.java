@@ -24,15 +24,27 @@ public class DontForgetTheLyrics {
 		JOptionPane.showMessageDialog(null, "Here is where you try not to forget the lyrics");
 
 		// 5. Use the playSound method to play your song.
-
+		playSound("correct.wav");
 		// 6. Make a pop-up for the player to type their answer.
-
+		String answer = JOptionPane.showInputDialog(null, "What sound just occured");
 		// 7. If they answered correctly, tell them that they were right.
-
+		if(answer.equalsIgnoreCase("ding")) {
+		JOptionPane.showMessageDialog(null, "congrats you somehow got the answer");
+			
+		}
 		// 8. Otherwise, tell them they are wrong, and give them the answer.
-
+		JOptionPane.showMessageDialog(null, "It is possible just figure it out again.");
+			
+		
 		// 9. Record another sound and repeat steps 5-8.
-
+		playSound("wrong.wav");
+		String answerd = JOptionPane.showInputDialog("What sound just occured?");
+			
+		
+	if(answerd.equalsIgnoreCase("ding")) {
+		JOptionPane.showMessageDialog(null, "Congrats you somehow got it correct for the 2nd time you derserve a cookie.");
+	}
+		JOptionPane.showMessageDialog(null, "It is possible just figure it out again");
 		// 10. [optional] Add a points variable that will calculate their final score.
 	}
 

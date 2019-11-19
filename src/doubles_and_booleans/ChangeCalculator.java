@@ -25,15 +25,16 @@ public class ChangeCalculator {
         String quarters = JOptionPane.showInputDialog("How many quarters do you have?");
         int q = Integer.parseInt(quarters);
 		// Calculate how much money the user has and save it in a double variable 
-    double answer;
+   
         
-        double money = 0.0;
-        money+= .05*n;
-        money+= .10*d;
-        money+= .25*q;
+        double total = 0.0;
+        total+= n*.05;
+        total+= d*.10;
+        total+= q*.25;
+        		
         
-        answer = n + d + q;
-        System.out.println(answer);
+        total = n + d + q;
+        System.out.println(total);
 		// Tell the user how much money they have
 
 	}
