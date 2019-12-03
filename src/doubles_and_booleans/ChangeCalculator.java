@@ -28,9 +28,9 @@ public class ChangeCalculator {
    
         
         double total = 0.0;
-        total+= n*.05;
-        total+= d*.10;
-        total+= q*.25;
+        total= n*.05;
+        total= d*.10;
+        total= q*.25;
         		
         
         total = n + d + q;
